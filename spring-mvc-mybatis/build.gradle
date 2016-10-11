@@ -1,0 +1,13 @@
+dependencies {
+    compile 'org.springframework:spring-core:4.0.3.RELEASE'
+    compile 'org.springframework:spring-web:4.0.3.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.0.3.RELEASE'
+    compile 'org.springframework:spring-context-support:4.0.3.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.0.3.RELEASE'
+
+    compile 'javax.servlet:servlet-api:2.5'
+    compile 'javax.servlet.jsp:jsp-api:2.2.1-b03'
+    compile 'javax.servlet:jstl:1.2'
+
+    testCompile 'org.springframework:spring-test:3.2.8.RELEASE'
+}
