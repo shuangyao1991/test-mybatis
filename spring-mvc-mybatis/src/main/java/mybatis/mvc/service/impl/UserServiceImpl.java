@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * Created with by shuangyao on 2016/10/11.
@@ -36,5 +37,24 @@ public class UserServiceImpl implements UserService {
     public User getById(int id) {
         logger.debug("UserServiceImpl -> getById : id = " + id);
         return userDAO.getById(id);
+    }
+
+    @Override
+    public void update(User user) {
+        try {
+            userDAO.update(user);
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+        }
+    }
+
+    @Override
+    public List<User> getAll() {
+        try {
+            return userDAO.getAll();
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+            return null;
+        }
     }
 }

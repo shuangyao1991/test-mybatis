@@ -3,4 +3,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mybatis.mvc.dao.UserDAO">
 
+    <resultMap id="userMap" type="mybatis.mvc.model.User">
+        <id property="id" column="id" javaType="java.lang.Integer"/>
+        <result property="uname" column="uname" javaType="java.lang.String"/>
+        <result property="age" column="age" javaType="java.lang.Integer"/>
+        <result property="birthday" column="birthday" javaType="java.util.Date"/>
+    </resultMap>
 </mapper>
