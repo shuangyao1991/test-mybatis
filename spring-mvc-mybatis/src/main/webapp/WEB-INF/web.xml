@@ -7,6 +7,11 @@
 
     <display-name>Spring-MVC-Mybatis_test</display-name>
 
+    <!--<context-param>-->
+        <!--<param-name>spring.profiles.default</param-name>-->
+        <!--<param-value>development</param-value>-->
+    <!--</context-param>-->
+
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath*:application-context.xml</param-value>

@@ -21,17 +21,12 @@ import java.util.Map;
 public interface UserDAO {
 
     @Select("select * from user where id = #{id}")
-    @Results({
-            @Result(id = true, property = "id", column = "id", javaType = Integer.class),
-            @Result(property = "uname", column = "uname", javaType = String.class),
-            @Result(property = "age", column = "age", javaType = Integer.class),
-            @Result(property = "birthday", column = "birthday", jdbcType = JdbcType.DATE)
-    })
+    @ResultMap("userMap")
     public User getById(@Param("id") int id);
 
-    @Insert("insert into user value (null, #{u.uname}, #{u.age}, #{u.birthday})")
-    @Options(useGeneratedKeys = true, keyProperty = "u.id")
-    public int save(@Param("u") User user) throws Exception;
+//    @Insert("insert into user value (null, #{u.uname}, #{u.age}, #{u.birthday})")
+//    @Options(useGeneratedKeys = true, keyProperty = "u.id")
+    public int save(@Param("user") User user) throws Exception;
 
 
     @Update("update user set uname = #{u.uname}, age = #{u.age} where id = #{u.id}")

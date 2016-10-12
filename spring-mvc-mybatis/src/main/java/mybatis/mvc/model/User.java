@@ -16,6 +16,8 @@ public class User implements Serializable {
 
     private Date birthday;
 
+    private KeyValue keyValue;
+
     public Integer getId() {
         return id;
     }
@@ -48,6 +50,14 @@ public class User implements Serializable {
         this.birthday = birthday;
     }
 
+    public KeyValue getKeyValue() {
+        return keyValue;
+    }
+
+    public void setKeyValue(KeyValue keyValue) {
+        this.keyValue = keyValue;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -55,6 +65,7 @@ public class User implements Serializable {
                 ", uname='" + uname + '\'' +
                 ", age=" + age +
                 ", birthday=" + birthday +
+                ", keyValue=" + keyValue +
                 '}';
     }
 }

@@ -2,6 +2,7 @@ package mybatis.mvc.services;
 
 import com.google.common.collect.Lists;
 import mybatis.mvc.BaseUnitTest;
+import mybatis.mvc.model.KeyValue;
 import mybatis.mvc.model.User;
 import mybatis.mvc.service.impl.UserServiceImpl;
 import org.junit.Test;
@@ -20,7 +21,7 @@ public class UserServiceImplTest extends BaseUnitTest {
 
     @Test
     public void testGetById() throws Exception {
-        User user = userService.getById(1);
+        User user = userService.getById(9);
         println(user.toString());
     }
 
@@ -30,6 +31,11 @@ public class UserServiceImplTest extends BaseUnitTest {
         user.setUname("test");
         user.setAge(0);
         user.setBirthday(new Date());
+
+        KeyValue keyValue = new KeyValue();
+        keyValue.setKey("key2");
+        keyValue.setValue("value2");
+        user.setKeyValue(keyValue);
         userService.save(user);
     }
 
@@ -62,8 +68,8 @@ public class UserServiceImplTest extends BaseUnitTest {
     @Test
     public void testBatchDelete() throws Exception {
         List<Integer> ids = Lists.newArrayList();
-        ids.add(18);
-        ids.add(19);
+        ids.add(16);
+        ids.add(17);
         ids.add(20);
         ids.add(21);
         ids.add(22);

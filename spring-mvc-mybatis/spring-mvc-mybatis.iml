@@ -72,6 +72,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework:spring-test:4.3.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.25" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.4" level="project" />
   </component>
 </module>

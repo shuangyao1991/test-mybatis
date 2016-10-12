@@ -3,17 +3,36 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="mybatis.mvc.dao.UserDAO">
 
-    <resultMap id="userMap" type="mybatis.mvc.model.User">
+    <resultMap id="userMap" type="User">
         <id property="id" column="id" javaType="java.lang.Integer"/>
         <result property="uname" column="uname" javaType="java.lang.String"/>
         <result property="age" column="age" javaType="java.lang.Integer"/>
-        <result property="birthday" column="birthday" javaType="java.util.Date"/>
+        <result property="birthday" column="birthday" javaType="java.util.Date" jdbcType="VARCHAR"/>
+        <result property="keyValue" column="key_value" javaType="KeyValue" typeHandler="GenericTypeHandler"/>
     </resultMap>
 
+    <insert id="save" parameterType="User">
+        INSERT  INTO user (uname, age, birthday, key_value)
+        VALUES (#{user.uname}, #{user.age}, #{user.birthday}
+            , #{user.keyValue, jdbcType=VARCHAR, typeHandler=GenericTypeHandler}
+        )
+    </insert>
+
+    <!--use sql-->
+    <!--<insert id="save" parameterType="User">-->
+        <!--INSERT INTO user (-->
+          <!--<include refid="colWithoutId"/>-->
+        <!--)-->
+        <!--VALUES (-->
+          <!--<include refid="userColumns"><property name="alias" value="user"/></include>-->
+        <!--)-->
+    <!--</insert>-->
+    
     <insert id="batchSave" parameterType="java.util.List">
-        INSERT INTO user VALUES
+        INSERT INTO user (uname, age, birthday, key_value)
+        VALUES
         <foreach collection="users" item="user" separator=",">
-            (NULL , #{user.uname}, #{user.age}, #{user.birthday, jdbcType=DATE})
+            (#{user.uname}, #{user.age}, #{user.birthday, jdbcType=DATE})
         </foreach>
     </insert>
 
@@ -41,4 +60,17 @@
             AND uname LIKE #{uname}
         </if>
     </select>
+
+
+
+    <!--test reuse sql statement-->
+    <sql id="userColumns">
+        #{${alias}.uname},
+        #{${alias}.age},
+        #{${alias}.birthday}
+    </sql>
+
+    <sql id="colWithoutId">
+        uname, age, birthday
+    </sql>
 </mapper>

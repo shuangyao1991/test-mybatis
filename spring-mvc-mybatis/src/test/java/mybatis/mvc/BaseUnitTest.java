@@ -1,6 +1,5 @@
 package mybatis.mvc;
 
-import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.slf4j.bridge.SLF4JBridgeHandler;
 import org.springframework.test.context.ContextConfiguration;
@@ -11,19 +10,12 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:/application-context.xml"})
-public class BaseUnitTest {
+public class BaseUnitTest extends TestUtil{
 
     static {
         SLF4JBridgeHandler.removeHandlersForRootLogger();
         SLF4JBridgeHandler.install();
-    }
 
-    public static void println(Object object) {
-        System.out.println(object);
+        System.setProperty("spring.profiles.active", "development");
     }
-
-    public static void print(Object object) {
-        System.out.print(object);
-    }
-
 }
