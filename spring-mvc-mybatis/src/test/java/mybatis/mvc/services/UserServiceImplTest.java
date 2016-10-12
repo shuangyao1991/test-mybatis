@@ -20,7 +20,7 @@ public class UserServiceImplTest extends BaseUnitTest {
 
     @Test
     public void testGetById() throws Exception {
-        User user = userService.getById(16);
+        User user = userService.getById(1);
         println(user.toString());
     }
 

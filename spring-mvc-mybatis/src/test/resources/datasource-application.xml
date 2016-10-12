@@ -9,7 +9,7 @@
 
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
-            <value>classpath*:/properties/test/datasource.properties</value>
+            <value>classpath:/properties/datasource.properties</value>
         </property>
     </bean>
 
@@ -22,7 +22,7 @@
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="myDB"/>
-        <!--<property name="configLocation" value="classpath*:mybatis.xml"/>-->
+        <!--<property name="configLocation" value="classpath:mybatis.xml"/>-->
         <property name="mapperLocations" value="classpath*:/mapper/*.xml"/>
     </bean>
 
