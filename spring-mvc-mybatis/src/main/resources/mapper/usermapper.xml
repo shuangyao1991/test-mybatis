@@ -9,4 +9,36 @@
         <result property="age" column="age" javaType="java.lang.Integer"/>
         <result property="birthday" column="birthday" javaType="java.util.Date"/>
     </resultMap>
+
+    <insert id="batchSave" parameterType="java.util.List">
+        INSERT INTO user VALUES
+        <foreach collection="users" item="user" separator=",">
+            (NULL , #{user.uname}, #{user.age}, #{user.birthday, jdbcType=DATE})
+        </foreach>
+    </insert>
+
+    <delete id="batchDelete" parameterType="java.util.List">
+        DELETE FROM user WHERE id IN (
+          <foreach collection="ids" item="id" separator=",">
+              #{id}
+          </foreach>
+        )
+    </delete>
+
+    <!--keys in params : uname, offset, limit-->
+    <select id="queryByUserName" parameterType="java.util.Map" resultMap="userMap">
+        SELECT * FROM user WHERE 1=1
+        <if test="uname != null">
+            AND uname LIKE '%${uname}%'
+        </if>
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--keys in params : uname-->
+    <select id="queryTotalByUserName" parameterType="java.util.Map" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM user WHERE 1=1
+        <if test="uname != null">
+            AND uname LIKE #{uname}
+        </if>
+    </select>
 </mapper>

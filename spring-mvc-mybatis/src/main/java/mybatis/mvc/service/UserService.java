@@ -15,4 +15,12 @@ public interface UserService {
     public void update(User user);
 
     public List<User> getAll();
+
+    public void batchSave(List<User> users);
+
+    public void batchDelete(List<Integer> ids);
+
+    public List<User> queryByUserName(String uname, int offset, int limit);
+
+    public int queryTotalByUserName(String uname);
 }
