@@ -1,9 +1,10 @@
 package mybatis.mvc.service.impl;
 
 import com.google.common.collect.Maps;
-import mybatis.mvc.dao.slaver.UserDAOSlaver;
+import mybatis.mvc.dao.UserDAO;
 import mybatis.mvc.model.User;
 import mybatis.mvc.service.UserService;
+import mybatis.mvc.utils.DataSourceHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -22,33 +23,29 @@ public class UserServiceImpl implements UserService {
     static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Resource
-    private UserDAOSlaver userDAOSlaver;
+    private UserDAO userDAO;
 
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void save(User user) throws Exception{
-//        try {
-            if (user == null || user.getUname() == null) {
-                return;
-            }
-            userDAOSlaver.save(user);
-            user.setUname("123456789123456789123456789123456789123456789123456789123456789123456789123456789");
-            userDAOSlaver.save(user);
-//        } catch (Exception e) {
-//            logger.error(e.getMessage());
-//        }
+        if (user == null || user.getUname() == null) {
+            return;
+        }
+        DataSourceHolder.set(DataSourceHolder.MASTER);
+        userDAO.save(user);
     }
 
     @Override
     public User getById(int id) {
         logger.debug("UserServiceImpl -> getById : id = " + id);
-        return userDAOSlaver.getById(id);
+        DataSourceHolder.set(DataSourceHolder.SLAVER);
+        return userDAO.getById(id);
     }
 
     @Override
     public void update(User user) {
         try {
-            userDAOSlaver.update(user);
+            userDAO.update(user);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -57,7 +54,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void delete(User user) {
         try {
-            userDAOSlaver.delete(user);
+            userDAO.delete(user);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -66,7 +63,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getAll() {
         try {
-            return userDAOSlaver.getAll();
+            return userDAO.getAll();
         } catch (Exception e) {
             logger.error(e.getMessage());
             return null;
@@ -79,7 +76,7 @@ public class UserServiceImpl implements UserService {
             if (users == null || users.size() == 0) {
                 return;
             }
-            userDAOSlaver.batchSave(users);
+            userDAO.batchSave(users);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -91,7 +88,7 @@ public class UserServiceImpl implements UserService {
             if (ids == null || ids.size() == 0) {
                 return;
             }
-            userDAOSlaver.batchDelete(ids);
+            userDAO.batchDelete(ids);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -104,7 +101,7 @@ public class UserServiceImpl implements UserService {
             params.put("uname", uname);
             params.put("offset", offset);
             params.put("limit", limit);
-            return userDAOSlaver.queryByUserName(params);
+            return userDAO.queryByUserName(params);
         } catch (Exception e) {
             logger.error(e.getMessage());
             return null;
@@ -116,7 +113,7 @@ public class UserServiceImpl implements UserService {
         try {
             Map<String, Object> params = Maps.newHashMap();
             params.put("uname", uname);
-            return userDAOSlaver.queryTotalByUserName(params);
+            return userDAO.queryTotalByUserName(params);
         } catch (Exception e) {
             logger.error(e.getMessage());
             return -1;

@@ -4,7 +4,7 @@ import com.google.common.collect.Lists;
 import mybatis.mvc.BaseUnitTest;
 import mybatis.mvc.model.KeyValue;
 import mybatis.mvc.model.User;
-import mybatis.mvc.service.impl.UserServiceImpl;
+import mybatis.mvc.service.UserService;
 import org.junit.Test;
 
 import javax.annotation.Resource;
@@ -14,14 +14,14 @@ import java.util.List;
 /**
  * Created with by shuangyao on 2016/10/11.
  */
-public class UserServiceImplTest extends BaseUnitTest {
+public class UserServiceTest extends BaseUnitTest {
 
-    @Resource
-    private UserServiceImpl userService;
+    @Resource(name = "userServiceMSImpl")
+    private UserService userService;
 
     @Test
     public void testGetById() throws Exception {
-        User user = userService.getById(9);
+        User user = userService.getById(1);
         println(user.toString());
     }
 
@@ -33,17 +33,25 @@ public class UserServiceImplTest extends BaseUnitTest {
         user.setBirthday(new Date());
 
         KeyValue keyValue = new KeyValue();
-        keyValue.setKey("key2");
-        keyValue.setValue("value2");
+        keyValue.setKey("key3");
+        keyValue.setValue("value3");
         user.setKeyValue(keyValue);
         userService.save(user);
     }
 
     @Test
     public void testUpdate() throws Exception {
-        User user = userService.getById(5);
-        user.setAge(0);
+        User user = userService.getById(3);
+        user.setAge(3);
         userService.update(user);
+    }
+
+    @Test
+    public void testDelete() throws Exception {
+        User user = new User();
+        user.setId(30);
+        userService.delete(user);
+
     }
 
     @Test
@@ -74,8 +82,8 @@ public class UserServiceImplTest extends BaseUnitTest {
         ids.add(21);
         ids.add(22);
         ids.add(23);
-        ids.add(24);
-        ids.add(25);
+        ids.add(19);
+        ids.add(18);
         userService.batchDelete(ids);
     }
 

@@ -1,9 +1,11 @@
 package mybatis.mvc.service.impl;
 
 import com.google.common.collect.Maps;
+import mybatis.mvc.dao.master.UserDAOMaster;
 import mybatis.mvc.dao.slaver.UserDAOSlaver;
 import mybatis.mvc.model.User;
 import mybatis.mvc.service.UserService;
+import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -14,26 +16,37 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created with by shuangyao on 2016/10/11.
+ * Created with by shuangyao on 2016/10/13.
  */
-@Service("userServiceImpl")
-public class UserServiceImpl implements UserService {
+@Service("userServiceMSImpl")
+public class UserServiceMSImpl implements UserService {
 
-    static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
+    static final Logger logger = LoggerFactory.getLogger(UserServiceMSImpl.class);
 
-    @Resource
-    private UserDAOSlaver userDAOSlaver;
+    @Resource(name = "masterSqlSession")
+    private SqlSession masterSqlSession;
+
+    @Resource(name = "slaverSqlSession")
+    private SqlSession slaverSqlSession;
+
+//    private UserDAOSlaver reader = masterSqlSession.getMapper(UserDAOSlaver.class);
+//
+//    private UserDAOMaster writer = slaverSqlSession.getMapper(UserDAOMaster.class);
+
+    private UserDAOSlaver reader = null;
+
+    private UserDAOMaster writer = null;
 
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void save(User user) throws Exception{
 //        try {
-            if (user == null || user.getUname() == null) {
-                return;
-            }
-            userDAOSlaver.save(user);
-            user.setUname("123456789123456789123456789123456789123456789123456789123456789123456789123456789");
-            userDAOSlaver.save(user);
+        if (user == null || user.getUname() == null) {
+            return;
+        }
+        writer.save(user);
+        user.setUname("123456789123456789123456789123456789123456789123456789123456789123456789123456789");
+        writer.save(user);
 //        } catch (Exception e) {
 //            logger.error(e.getMessage());
 //        }
@@ -42,13 +55,14 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getById(int id) {
         logger.debug("UserServiceImpl -> getById : id = " + id);
-        return userDAOSlaver.getById(id);
+        reader = slaverSqlSession.getMapper(UserDAOSlaver.class);
+        return reader.getById(id);
     }
 
     @Override
     public void update(User user) {
         try {
-            userDAOSlaver.update(user);
+            writer.update(user);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -57,7 +71,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void delete(User user) {
         try {
-            userDAOSlaver.delete(user);
+            writer.delete(user);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -66,7 +80,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getAll() {
         try {
-            return userDAOSlaver.getAll();
+            return reader.getAll();
         } catch (Exception e) {
             logger.error(e.getMessage());
             return null;
@@ -79,7 +93,7 @@ public class UserServiceImpl implements UserService {
             if (users == null || users.size() == 0) {
                 return;
             }
-            userDAOSlaver.batchSave(users);
+            writer.batchSave(users);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -91,7 +105,7 @@ public class UserServiceImpl implements UserService {
             if (ids == null || ids.size() == 0) {
                 return;
             }
-            userDAOSlaver.batchDelete(ids);
+            writer.batchDelete(ids);
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
@@ -104,7 +118,7 @@ public class UserServiceImpl implements UserService {
             params.put("uname", uname);
             params.put("offset", offset);
             params.put("limit", limit);
-            return userDAOSlaver.queryByUserName(params);
+            return reader.queryByUserName(params);
         } catch (Exception e) {
             logger.error(e.getMessage());
             return null;
@@ -116,7 +130,7 @@ public class UserServiceImpl implements UserService {
         try {
             Map<String, Object> params = Maps.newHashMap();
             params.put("uname", uname);
-            return userDAOSlaver.queryTotalByUserName(params);
+            return reader.queryTotalByUserName(params);
         } catch (Exception e) {
             logger.error(e.getMessage());
             return -1;

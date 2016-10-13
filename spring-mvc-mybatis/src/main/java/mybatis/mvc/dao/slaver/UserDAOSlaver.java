@@ -1,4 +1,4 @@
-package mybatis.mvc.dao;
+package mybatis.mvc.dao.slaver;
 
 import mybatis.mvc.model.User;
 import org.apache.ibatis.annotations.Param;
@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * Created with by shuangyao on 2016/10/11.
  */
-public interface UserDAO {
+public interface UserDAOSlaver {
 
 //    @Select("select * from user where id = #{id}")
 //    @ResultMap("userMap")

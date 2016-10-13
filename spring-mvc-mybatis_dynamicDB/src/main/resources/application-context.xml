@@ -12,9 +12,7 @@
     <mvc:annotation-driven/>
 
     <import resource="classpath:application-propertiesConfig.xml"/>
-    <!--<import resource="classpath:application-datasource.xml"/>-->
-    <import resource="classpath:datasource-master.xml"/>
-    <import resource="classpath:datasource-slaver.xml"/>
+    <import resource="classpath:application-datasource.xml"/>
 
     <context:component-scan base-package="mybatis.mvc.service"/>
 </beans>
