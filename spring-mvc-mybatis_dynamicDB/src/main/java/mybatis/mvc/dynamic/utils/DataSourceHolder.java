@@ -1,4 +1,4 @@
-package mybatis.mvc.utils;
+package mybatis.mvc.dynamic.utils;
 
 /**
  * Created with by shuangyao on 2016/8/17.

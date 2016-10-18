@@ -1,10 +1,10 @@
 package mybatis.mvc.service.impl;
 
 import com.google.common.collect.Maps;
+import mybatis.mvc.service.UserService;
 import mybatis.mvc.dao.master.UserDAOMaster;
 import mybatis.mvc.dao.slaver.UserDAOSlaver;
 import mybatis.mvc.model.User;
-import mybatis.mvc.service.UserService;
 import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

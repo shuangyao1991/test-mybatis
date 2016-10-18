@@ -1,4 +1,4 @@
-package mybatis.mvc.utils;
+package mybatis.mvc.dynamic.utils;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 

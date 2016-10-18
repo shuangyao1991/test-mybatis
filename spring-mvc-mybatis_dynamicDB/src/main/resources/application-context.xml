@@ -14,5 +14,5 @@
     <import resource="classpath:application-propertiesConfig.xml"/>
     <import resource="classpath:application-datasource.xml"/>
 
-    <context:component-scan base-package="mybatis.mvc.service"/>
+    <context:component-scan base-package="mybatis.mvc.dynamic.service"/>
 </beans>

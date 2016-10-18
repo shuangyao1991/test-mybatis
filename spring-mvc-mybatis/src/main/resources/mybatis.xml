@@ -10,7 +10,7 @@
     </settings>
 
     <typeAliases>
-        <!--<typeAlias type="mybatis.mvc.model.User" alias="User"/>-->
+        <!--<typeAlias type="User" alias="User"/>-->
         <package name="mybatis.mvc.model"/>
         <package name="mybatis.mvc.handlers"/>
     </typeAliases>

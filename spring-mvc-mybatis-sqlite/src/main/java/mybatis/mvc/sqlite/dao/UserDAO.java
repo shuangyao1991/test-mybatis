@@ -1,6 +1,6 @@
-package mybatis.mvc.dao;
+package mybatis.mvc.sqlite.dao;
 
-import mybatis.mvc.model.User;
+import mybatis.mvc.sqlite.model.User;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

@@ -1,7 +1,5 @@
 package mybatis.mvc.model;
 
-import mybatis.mvc.utils.JsonUtil;
-
 import java.io.Serializable;
 
 /**

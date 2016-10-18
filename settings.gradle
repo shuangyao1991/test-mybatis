@@ -1,4 +1,5 @@
 rootProject.name = 'test-mybatis'
 include 'spring-mvc-mybatis'
 include 'spring-mvc-mybatis_dynamicDB'
+include 'spring-mvc-mybatis-sqlite'
 

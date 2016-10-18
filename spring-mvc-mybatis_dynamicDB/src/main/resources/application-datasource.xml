@@ -24,7 +24,7 @@
         <property name="password" value="${read.jdbc.password}"/>
     </bean>
 
-    <bean id="myDataSource" class="mybatis.mvc.utils.DynamicDataSource">
+    <bean id="myDataSource" class="mybatis.mvc.dynamic.utils.DynamicDataSource">
         <property name="targetDataSources">
             <map>
                 <entry key="master" value-ref="masterDB"/>
@@ -41,7 +41,7 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="mybatis.mvc.dao"/>
+        <property name="basePackage" value="mybatis.mvc.dynamic.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 </beans>

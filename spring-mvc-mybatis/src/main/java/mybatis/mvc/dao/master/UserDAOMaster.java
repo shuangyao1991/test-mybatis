@@ -2,7 +2,6 @@ package mybatis.mvc.dao.master;
 
 import mybatis.mvc.model.User;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;

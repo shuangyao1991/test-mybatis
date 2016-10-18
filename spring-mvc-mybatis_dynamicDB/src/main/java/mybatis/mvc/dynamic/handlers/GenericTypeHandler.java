@@ -1,6 +1,6 @@
-package mybatis.mvc.handlers;
+package mybatis.mvc.dynamic.handlers;
 
-import mybatis.mvc.utils.JsonUtil;
+import mybatis.mvc.dynamic.utils.JsonUtil;
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
 import org.apache.ibatis.type.MappedJdbcTypes;

@@ -1,6 +1,6 @@
-package mybatis.mvc.service;
+package mybatis.mvc.sqlite.service;
 
-import mybatis.mvc.model.User;
+import mybatis.mvc.sqlite.model.User;
 
 import java.util.List;
 

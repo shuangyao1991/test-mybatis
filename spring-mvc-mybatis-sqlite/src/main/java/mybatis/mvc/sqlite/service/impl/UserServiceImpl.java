@@ -1,10 +1,9 @@
-package mybatis.mvc.service.impl;
+package mybatis.mvc.sqlite.service.impl;
 
 import com.google.common.collect.Maps;
-import mybatis.mvc.dao.UserDAO;
-import mybatis.mvc.model.User;
-import mybatis.mvc.service.UserService;
-import mybatis.mvc.utils.DataSourceHolder;
+import mybatis.mvc.sqlite.dao.UserDAO;
+import mybatis.mvc.sqlite.model.User;
+import mybatis.mvc.sqlite.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -17,7 +16,7 @@ import java.util.Map;
 /**
  * Created with by shuangyao on 2016/10/11.
  */
-@Service("userServiceImpl")
+@Service
 public class UserServiceImpl implements UserService {
 
     static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
@@ -28,17 +27,16 @@ public class UserServiceImpl implements UserService {
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void save(User user) throws Exception{
-        if (user == null || user.getUname() == null) {
-            return;
-        }
-        DataSourceHolder.set(DataSourceHolder.MASTER);
+//        try {
+            if (user == null || user.getUname() == null) {
+                return;
+            }
         userDAO.save(user);
     }
 
     @Override
     public User getById(int id) {
         logger.debug("UserServiceImpl -> getById : id = " + id);
-        DataSourceHolder.set(DataSourceHolder.SLAVER);
         return userDAO.getById(id);
     }
 

@@ -3,7 +3,6 @@ package mybatis.mvc.utils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.apache.commons.lang.StringUtils;
-import org.apache.ibatis.logging.slf4j.Slf4jImpl;
 import org.apache.log4j.Logger;
 
 import java.lang.reflect.Type;

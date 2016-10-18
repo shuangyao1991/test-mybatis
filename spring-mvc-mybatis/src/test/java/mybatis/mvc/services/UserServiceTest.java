@@ -1,10 +1,11 @@
 package mybatis.mvc.services;
 
+import static mybatis.mvc.TestUtil.*;
 import com.google.common.collect.Lists;
-import mybatis.mvc.BaseUnitTest;
 import mybatis.mvc.model.KeyValue;
-import mybatis.mvc.model.User;
 import mybatis.mvc.service.UserService;
+import mybatis.mvc.BaseUnitTest;
+import mybatis.mvc.model.User;
 import org.junit.Test;
 
 import javax.annotation.Resource;

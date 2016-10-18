@@ -1,4 +1,4 @@
-package mybatis.mvc.model;
+package mybatis.mvc.dynamic.model;
 
 import java.io.Serializable;
 import java.util.Date;

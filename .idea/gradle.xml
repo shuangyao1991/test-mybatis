@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/spring-mvc-mybatis" />
+            <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite" />
             <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB" />
           </set>
         </option>
@@ -18,6 +19,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/spring-mvc-mybatis" />
+            <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite" />
             <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB" />
           </set>
         </option>

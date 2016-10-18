@@ -1,13 +1,15 @@
 package mybatis.mvc;
 
-import mybatis.mvc.model.KeyValue;
-import mybatis.mvc.utils.JsonUtil;
+import static mybatis.mvc.TestUtil.*;
+
+import mybatis.mvc.dynamic.model.KeyValue;
+import mybatis.mvc.dynamic.utils.JsonUtil;
 import org.junit.Test;
 
 /**
  * Created with by shuangyao on 2016/10/12.
  */
-public class CommonTest extends TestUtil{
+public class CommonTest{
 
     @Test
     public void testKeyValue() throws Exception {
