@@ -14,6 +14,8 @@ public interface UserService {
 
     public void update(User user);
 
+    public void updateName(String name, int id);
+
     public void delete(User user);
 
     public List<User> getAll();

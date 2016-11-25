@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis.iml" filepath="$PROJECT_DIR$/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis/spring-mvc-mybatis.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis/spring-mvc-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/spring-mvc-mybatis-sqlite.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/spring-mvc-mybatis-sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/spring-mvc-mybatis_dynamicDB.iml" filepath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/spring-mvc-mybatis_dynamicDB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test-mybatis.iml" filepath="$PROJECT_DIR$/test-mybatis.iml" />
     </modules>
   </component>
 </project>

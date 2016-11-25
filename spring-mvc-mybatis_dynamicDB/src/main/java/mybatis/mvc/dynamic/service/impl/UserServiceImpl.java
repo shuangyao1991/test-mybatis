@@ -52,6 +52,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public void updateName(String name, int id) {
+        try {
+            userDAO.updateName(name, id);
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+        }
+    }
+
+    @Override
     public void delete(User user) {
         try {
             userDAO.delete(user);

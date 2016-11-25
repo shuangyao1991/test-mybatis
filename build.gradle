@@ -1,11 +1,11 @@
 allprojects {
-    group 'ys'
+    group 'ys.test'
     version '1.0-SNAPSHOT'
 
     apply plugin: 'java'
     apply plugin: 'war'
 
-    sourceCompatibility = 1.5
+    sourceCompatibility = 1.7
 
     repositories {
         maven {
@@ -14,7 +14,9 @@ allprojects {
         mavenLocal()
         mavenCentral()
     }
+}
 
+subprojects {
     dependencies {
         compile 'org.slf4j:slf4j-api:1.7.21'
         compile 'ch.qos.logback:logback-core:1.1.7'
@@ -36,6 +38,9 @@ allprojects {
         compile 'com.google.code.gson:gson:2.3.1'
 
         compile ('com.dianping.cat:cat-core:1.3.6') {
+            exclude module : 'junit'
+        }
+        compile ('com.dianping.cat:cat-client:1.3.7') {
             exclude module : 'junit'
         }
 

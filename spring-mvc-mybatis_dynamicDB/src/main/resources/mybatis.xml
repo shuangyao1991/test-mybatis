@@ -19,6 +19,10 @@
         <typeHandler handler="GenericTypeHandler" javaType="KeyValue"/>
         <!--<typeHandler handler="org.apache.ibatis.type.DateTypeHandler" javaType="java.util.Date"/>-->
     </typeHandlers>
+    
+    <plugins>
+        <plugin interceptor="mybatis.mvc.dynamic.interceptors.CatMybatisInterceptor"></plugin>
+    </plugins>
 
 </configuration>
 

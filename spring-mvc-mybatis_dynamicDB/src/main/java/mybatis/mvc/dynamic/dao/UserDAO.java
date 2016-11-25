@@ -1,7 +1,10 @@
 package mybatis.mvc.dynamic.dao;
 
 import mybatis.mvc.dynamic.model.User;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 import java.util.Map;
@@ -15,13 +18,30 @@ public interface UserDAO {
 //    @ResultMap("userMap")
     public User getById(@Param("id") int id);
 
-//    @Insert("insert into user value (null, #{u.uname}, #{u.age}, #{u.birthday})")
-//    @Options(useGeneratedKeys = true, keyProperty = "u.id")
-    public int save(@Param("user") User user) throws Exception;
+//    @Insert("insert into user(uname, age, birthday) values (#{u.uname}, #{u.age}, #{u.birthday})")
+//    @Insert({"<script>",
+//            "insert into user (uname, age",
+//            "<if test=\"#{birthday} != null\">, birthday</if>) ",
+//            "values (#{uname}, #{age}",
+//            "<if test=\"#{birthday} != null\">, #{birthday}</if>",
+//            ")",
+//            "</script>"})
+    @Insert({"<script>",
+            "insert into user (uname, age",
+            "<if test='#{birthday} != null'>, birthday</if>) ",
+            "values (#{uname}, #{age}",
+            "<if test='#{birthday} != null'>, #{birthday}</if>",
+            ")",
+            "</script>"})
+    @Options(useGeneratedKeys = true, keyProperty = "id")
+    public int save(User user) throws Exception;
 
 
 //    @Update("update user set uname = #{user.uname}, age = #{user.age} where id = #{user.id}")
     public int update(@Param("user") User user) throws Exception;
+//
+    @Update("update user set uname = #{uname} where id = #{id}")
+    public int updateName(@Param("uname") String uname, @Param("id") Integer id);
 
 //    @Delete("delete from user where id = #{user.id}")
     public int delete(@Param("user") User user) throws Exception;

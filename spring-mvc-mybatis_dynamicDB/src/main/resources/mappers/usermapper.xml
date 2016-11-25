@@ -11,12 +11,12 @@
         <result property="keyValue" column="key_value" javaType="KeyValue" typeHandler="GenericTypeHandler"/>
     </resultMap>
 
-    <insert id="save" parameterType="User">
-        INSERT  INTO user (uname, age, birthday, key_value)
-        VALUES (#{user.uname}, #{user.age}, #{user.birthday}
-            , #{user.keyValue, jdbcType=VARCHAR, typeHandler=GenericTypeHandler}
-        )
-    </insert>
+    <!--<insert id="save" parameterType="User">-->
+        <!--INSERT  INTO user (uname, age, birthday, key_value)-->
+        <!--VALUES (#{user.uname}, #{user.age}, #{user.birthday}-->
+            <!--, #{user.keyValue, jdbcType=VARCHAR, typeHandler=GenericTypeHandler}-->
+        <!--)-->
+    <!--</insert>-->
 
     <!--use sql-->
     <!--<insert id="save" parameterType="User">-->

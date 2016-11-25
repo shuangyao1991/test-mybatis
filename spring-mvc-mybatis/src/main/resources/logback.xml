@@ -12,12 +12,12 @@
     </logger>
 
     <logger name="org.springframework" additivity="false">
-        <level value="INFO"/>
+        <level value="DEBUG"/>
         <appender-ref ref="STDOUT"/>
     </logger>
 
     <logger name="org.mybatis" additivity="false">
-        <level value="INFO"/>
+        <level value="DEBUG"/>
         <appender-ref ref="STDOUT"/>
     </logger>
 

@@ -22,16 +22,16 @@ public class UserServiceTest extends BaseUnitTest {
 
     @Test
     public void testGetById() throws Exception {
-        User user = userService.getById(1);
+        User user = userService.getById(2);
         println(user.toString());
     }
 
     @Test
     public void testSave() throws Exception {
         User user = new User();
-        user.setUname("test");
+        user.setUname("testtt");
         user.setAge(0);
-        user.setBirthday(new Date());
+//        user.setBirthday(new Date());
 
         KeyValue keyValue = new KeyValue();
         keyValue.setKey("key3");
@@ -42,9 +42,15 @@ public class UserServiceTest extends BaseUnitTest {
 
     @Test
     public void testUpdate() throws Exception {
-        User user = userService.getById(3);
+        User user = userService.getById(38);
         user.setAge(3);
         userService.update(user);
+    }
+
+    @Test
+    public void testUpdateName() throws Exception {
+        userService.updateName(null, 38);
+
     }
 
     @Test
@@ -77,14 +83,14 @@ public class UserServiceTest extends BaseUnitTest {
     @Test
     public void testBatchDelete() throws Exception {
         List<Integer> ids = Lists.newArrayList();
-        ids.add(16);
-        ids.add(17);
-        ids.add(20);
-        ids.add(21);
-        ids.add(22);
-        ids.add(23);
-        ids.add(19);
-        ids.add(18);
+        ids.add(6);
+        ids.add(7);
+        ids.add(8);
+        ids.add(9);
+        ids.add(37);
+        ids.add(36);
+        ids.add(32);
+        ids.add(35);
         userService.batchDelete(ids);
     }
 

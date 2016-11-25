@@ -1,78 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f1ea06a-c79f-4c36-b9b4-c6df89137c1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/spring-mvc-mybatis-sqlite.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/model/KeyValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/utils/JsonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-propertiesConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/mappers/usermapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/properties/development/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/properties/test/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/servlet-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/BaseUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/CommonTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/TestUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/services/UserServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/controllers/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/dao/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/handlers/GenericTypeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/model/KeyValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/utils/JsonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/META-INF/app.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/sqlite/controllers/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/sqlite/model/KeyValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/sqlite/utils/JsonUtil.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_spring_mvc_mybatis___spring_mvc_mybatis_1_0_SNAPSHOT_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_spring_mvc_mybatis___spring_mvc_mybatis_1_0_SNAPSHOT_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_spring_mvc_mybatis___spring_mvc_mybatis_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_spring_mvc_mybatis___spring_mvc_mybatis_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_test_mybatis___test_mybatis_1_0_SNAPSHOT_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_test_mybatis___test_mybatis_1_0_SNAPSHOT_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_test_mybatis___test_mybatis_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_test_mybatis___test_mybatis_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+    <list default="true" id="3f1ea06a-c79f-4c36-b9b4-c6df89137c1c" name="Default" comment="update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/interceptors/CatInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/interceptors/CatMybatisInterceptor.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_spring_mvc_mybatis___spring_mvc_mybatis_1_0_SNAPSHOT_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_spring_mvc_mybatis___spring_mvc_mybatis_1_0_SNAPSHOT_war__exploded_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_test_mybatis___test_mybatis_1_0_SNAPSHOT_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ys_test_mybatis___test_mybatis_1_0_SNAPSHOT_war__exploded_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/controllers/UserController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/model/KeyValue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/utils/JsonUtil.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/spring-mvc-mybatis-sqlite.iml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/spring-mvc-mybatis-sqlite.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/spring-mvc-mybatis.iml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/spring-mvc-mybatis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/controllers/UserController.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/controllers/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/dao/UserDAO.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/dao/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/dao/master/UserDAOMaster.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/dao/master/UserDAOMaster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/dao/slaver/UserDAOSlaver.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/dao/slaver/UserDAOSlaver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/model/KeyValue.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/model/KeyValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/service/impl/UserServiceMSImpl.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/service/impl/UserServiceMSImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/utils/JsonUtil.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/utils/JsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/mybatis.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/BaseUnitTest.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/BaseUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/CommonTest.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/CommonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/services/UserServiceTest.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/services/UserServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/spring-mvc-mybatis_dynamicDB.iml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/spring-mvc-mybatis_dynamicDB.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-context.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-datasource.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-datasource.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/controllers/UserController.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/controllers/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/dao/UserDAO.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/dao/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/UserService.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mappers/usermapper.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mappers/usermapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mybatis.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/properties/test/datasource.properties" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/properties/test/datasource.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/servlet-context.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/servlet-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/BaseUnitTest.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/BaseUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/CommonTest.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/CommonTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/services/UserServiceTest.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/services/UserServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-mybatis.iml" afterPath="$PROJECT_DIR$/test-mybatis.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dao/UserDAO.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/dao/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/handlers/GenericTypeHandler.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/handlers/GenericTypeHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/model/User.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/model/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/service/UserService.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/impl/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/utils/DataSourceHolder.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/utils/DataSourceHolder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/utils/DynamicDataSource.java" afterPath="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/utils/DynamicDataSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test-mybatis.iml" afterPath="$PROJECT_DIR$/mybatis.iml" />
     </list>
     <ignored path="test-mybatis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,11 +85,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/controllers/UserController.java">
+      <file leaf-file-name="BaseUnitTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/BaseUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4490446">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatMybatisInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/interceptors/CatMybatisInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6424581">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,9 +110,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -742,7 +707,7 @@
         <entry key="$PROJECT_DIR$/../../../focus/focus-login-internal" value="2948904911714" />
         <entry key="$PROJECT_DIR$/../my-projects" value="2948847176741" />
         <entry key="$PROJECT_DIR$/../test" value="2952176143723" />
-        <entry key="$PROJECT_DIR$" value="7382857207183" />
+        <entry key="$PROJECT_DIR$" value="7386161384647" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -755,38 +720,6 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/2f22c882ffa479d1e9ff4eb0e8e2c29f2a0871ed/jul-to-slf4j-1.7.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/b3700d97464d99bdcd42c0177d6e7951c94d75ff/log4j-over-slf4j-1.7.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/c5624f69848187a6bf1865cf64467beecdb9fa68/mybatis-3.4.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.0/d1dbdc46cac543447ffd5aeda59f1a9bb34f0912/mybatis-spring-1.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.25/6b2835d687a706678591febfd47b077dcce41595/mysql-connector-java-5.1.25.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-core/1.3.6/cat-core-1.3.6.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-client/1.3.6/cat-client-1.3.6.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/foundation-service/2.3.0/foundation-service-2.3.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/web-framework/2.3.0/web-framework-2.3.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/dal-jdbc/2.3.3/dal-jdbc-2.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.24.Final/8394cd4f580422af1ef344fcd4405c4dac910ef8/netty-all-4.0.24.Final.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.6/e3e8dd9ad86a7473221dd306c9a13daef0a87168/plexus-container-default-1.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.5.4/9e5e9a84f9c6e3f3f4745ac833d30dbc08d6e114/aspectjrt-1.5.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.2/1e48256a2341047e7d729217adeec8217f6e3a1a/commons-fileupload-1.2.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.1/69b2af361fb6a0feb65ccc20c29d949566f0a3ba/c3p0-0.9.5.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.5.1/98fea8e8c3fb0e8670a69ad6ea445872c9972910/plexus-classworlds-2.5.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-reflect/3.7/6072a967ec936b3bb25b421d8eca07dd750219fd/xbean-reflect-3.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.10/1f1f90ddc403e60e0089756f04119948f6a49a04/mchange-commons-java-0.2.10.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.20/e121ed37af8ee3928952f6d8a303de24e019aab0/plexus-utils-3.0.20.jar" />
-                          </list>
-                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -810,11 +743,23 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
                             <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-core/1.3.6/cat-core-1.3.6.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-client/1.3.6/cat-client-1.3.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dianping.cat/cat-client/1.3.7/bc2c3940aab6adb2ef62d4bad44df1801ae0ee43/cat-client-1.3.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.2.RELEASE/562b3b775b6e8e7113b5d23b21946f939658bd19/spring-web-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.2.RELEASE/99b68a8aca2ed67ad523e7341a90dd1c90fd669e/spring-webmvc-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.2.RELEASE/bf6e7cdb1dd25f5d9fbe76dc4fb01fec7b92af2e/spring-context-support-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.2.RELEASE/d60bd9daf7d819c72e6a27fad16c4683b2e7df11/spring-jdbc-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp/jsp-api/2.2.1-b03/c7205b380e9ceb4b96745656755f31f76ae01b74/jsp-api-2.2.1-b03.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
                             <option value="$MAVEN_REPOSITORY$/org/unidal/framework/foundation-service/2.3.0/foundation-service-2.3.0.jar" />
                             <option value="$MAVEN_REPOSITORY$/org/unidal/framework/web-framework/2.3.0/web-framework-2.3.0.jar" />
                             <option value="$MAVEN_REPOSITORY$/org/unidal/framework/dal-jdbc/2.3.3/dal-jdbc-2.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.24.Final/8394cd4f580422af1ef344fcd4405c4dac910ef8/netty-all-4.0.24.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.2.RELEASE/caef216e995f565dd4ab165ec5918ff44487615d/spring-aop-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.2.RELEASE/9e87f48f65a33a017f2dd027911947a28be29f93/spring-beans-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.2.RELEASE/e52782b824e097c3b1586b497fc6be0e95020770/spring-context-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.2.RELEASE/fd2f3cf45d3c84f293cb7ee3ab7d24c979495552/spring-core-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.2.RELEASE/7676acd4dde9d186b7f882edce3131dc62dcb590/spring-expression-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.2.RELEASE/dd75075485ddebb1f912102527ff91c4bfbae903/spring-tx-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.6/e3e8dd9ad86a7473221dd306c9a13daef0a87168/plexus-container-default-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.5.4/9e5e9a84f9c6e3f3f4745ac833d30dbc08d6e114/aspectjrt-1.5.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
@@ -823,20 +768,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.5.1/98fea8e8c3fb0e8670a69ad6ea445872c9972910/plexus-classworlds-2.5.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-reflect/3.7/6072a967ec936b3bb25b421d8eca07dd750219fd/xbean-reflect-3.7.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.10/1f1f90ddc403e60e0089756f04119948f6a49a04/mchange-commons-java-0.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.24.Final/8394cd4f580422af1ef344fcd4405c4dac910ef8/netty-all-4.0.24.Final.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.20/e121ed37af8ee3928952f6d8a303de24e019aab0/plexus-utils-3.0.20.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.2.RELEASE/562b3b775b6e8e7113b5d23b21946f939658bd19/spring-web-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.2.RELEASE/99b68a8aca2ed67ad523e7341a90dd1c90fd669e/spring-webmvc-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.2.RELEASE/bf6e7cdb1dd25f5d9fbe76dc4fb01fec7b92af2e/spring-context-support-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.2.RELEASE/d60bd9daf7d819c72e6a27fad16c4683b2e7df11/spring-jdbc-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp/jsp-api/2.2.1-b03/c7205b380e9ceb4b96745656755f31f76ae01b74/jsp-api-2.2.1-b03.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.2.RELEASE/caef216e995f565dd4ab165ec5918ff44487615d/spring-aop-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.2.RELEASE/9e87f48f65a33a017f2dd027911947a28be29f93/spring-beans-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.2.RELEASE/e52782b824e097c3b1586b497fc6be0e95020770/spring-context-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.2.RELEASE/fd2f3cf45d3c84f293cb7ee3ab7d24c979495552/spring-core-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.2.RELEASE/7676acd4dde9d186b7f882edce3131dc62dcb590/spring-expression-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.2.RELEASE/dd75075485ddebb1f912102527ff91c4bfbae903/spring-tx-4.3.2.RELEASE.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/spring-mvc-mybatis" />
@@ -862,20 +795,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
                             <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-core/1.3.6/cat-core-1.3.6.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-client/1.3.6/cat-client-1.3.6.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/foundation-service/2.3.0/foundation-service-2.3.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/web-framework/2.3.0/web-framework-2.3.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/dal-jdbc/2.3.3/dal-jdbc-2.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.24.Final/8394cd4f580422af1ef344fcd4405c4dac910ef8/netty-all-4.0.24.Final.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.6/e3e8dd9ad86a7473221dd306c9a13daef0a87168/plexus-container-default-1.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.5.4/9e5e9a84f9c6e3f3f4745ac833d30dbc08d6e114/aspectjrt-1.5.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.2/1e48256a2341047e7d729217adeec8217f6e3a1a/commons-fileupload-1.2.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.1/69b2af361fb6a0feb65ccc20c29d949566f0a3ba/c3p0-0.9.5.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.5.1/98fea8e8c3fb0e8670a69ad6ea445872c9972910/plexus-classworlds-2.5.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-reflect/3.7/6072a967ec936b3bb25b421d8eca07dd750219fd/xbean-reflect-3.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.10/1f1f90ddc403e60e0089756f04119948f6a49a04/mchange-commons-java-0.2.10.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.20/e121ed37af8ee3928952f6d8a303de24e019aab0/plexus-utils-3.0.20.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dianping.cat/cat-client/1.3.7/bc2c3940aab6adb2ef62d4bad44df1801ae0ee43/cat-client-1.3.7.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.2.RELEASE/562b3b775b6e8e7113b5d23b21946f939658bd19/spring-web-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.2.RELEASE/99b68a8aca2ed67ad523e7341a90dd1c90fd669e/spring-webmvc-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.2.RELEASE/bf6e7cdb1dd25f5d9fbe76dc4fb01fec7b92af2e/spring-context-support-4.3.2.RELEASE.jar" />
@@ -884,12 +804,25 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp/jsp-api/2.2.1-b03/c7205b380e9ceb4b96745656755f31f76ae01b74/jsp-api-2.2.1-b03.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.7.2/7a3d67f00508d3881650579f7f228c61bfc1b196/sqlite-jdbc-3.7.2.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/foundation-service/2.3.0/foundation-service-2.3.0.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/web-framework/2.3.0/web-framework-2.3.0.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/unidal/framework/dal-jdbc/2.3.3/dal-jdbc-2.3.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.2.RELEASE/caef216e995f565dd4ab165ec5918ff44487615d/spring-aop-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.2.RELEASE/9e87f48f65a33a017f2dd027911947a28be29f93/spring-beans-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.2.RELEASE/e52782b824e097c3b1586b497fc6be0e95020770/spring-context-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.2.RELEASE/fd2f3cf45d3c84f293cb7ee3ab7d24c979495552/spring-core-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.2.RELEASE/7676acd4dde9d186b7f882edce3131dc62dcb590/spring-expression-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.2.RELEASE/dd75075485ddebb1f912102527ff91c4bfbae903/spring-tx-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.6/e3e8dd9ad86a7473221dd306c9a13daef0a87168/plexus-container-default-1.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.5.4/9e5e9a84f9c6e3f3f4745ac833d30dbc08d6e114/aspectjrt-1.5.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.2/1e48256a2341047e7d729217adeec8217f6e3a1a/commons-fileupload-1.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.1/69b2af361fb6a0feb65ccc20c29d949566f0a3ba/c3p0-0.9.5.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.5.1/98fea8e8c3fb0e8670a69ad6ea445872c9972910/plexus-classworlds-2.5.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-reflect/3.7/6072a967ec936b3bb25b421d8eca07dd750219fd/xbean-reflect-3.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.10/1f1f90ddc403e60e0089756f04119948f6a49a04/mchange-commons-java-0.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.24.Final/8394cd4f580422af1ef344fcd4405c4dac910ef8/netty-all-4.0.24.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.20/e121ed37af8ee3928952f6d8a303de24e019aab0/plexus-utils-3.0.20.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite" />
@@ -915,11 +848,23 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
                             <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-core/1.3.6/cat-core-1.3.6.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-client/1.3.6/cat-client-1.3.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dianping.cat/cat-client/1.3.7/bc2c3940aab6adb2ef62d4bad44df1801ae0ee43/cat-client-1.3.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.2.RELEASE/562b3b775b6e8e7113b5d23b21946f939658bd19/spring-web-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.2.RELEASE/99b68a8aca2ed67ad523e7341a90dd1c90fd669e/spring-webmvc-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.2.RELEASE/bf6e7cdb1dd25f5d9fbe76dc4fb01fec7b92af2e/spring-context-support-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.2.RELEASE/d60bd9daf7d819c72e6a27fad16c4683b2e7df11/spring-jdbc-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp/jsp-api/2.2.1-b03/c7205b380e9ceb4b96745656755f31f76ae01b74/jsp-api-2.2.1-b03.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
                             <option value="$MAVEN_REPOSITORY$/org/unidal/framework/foundation-service/2.3.0/foundation-service-2.3.0.jar" />
                             <option value="$MAVEN_REPOSITORY$/org/unidal/framework/web-framework/2.3.0/web-framework-2.3.0.jar" />
                             <option value="$MAVEN_REPOSITORY$/org/unidal/framework/dal-jdbc/2.3.3/dal-jdbc-2.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.24.Final/8394cd4f580422af1ef344fcd4405c4dac910ef8/netty-all-4.0.24.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.2.RELEASE/caef216e995f565dd4ab165ec5918ff44487615d/spring-aop-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.2.RELEASE/9e87f48f65a33a017f2dd027911947a28be29f93/spring-beans-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.2.RELEASE/e52782b824e097c3b1586b497fc6be0e95020770/spring-context-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.2.RELEASE/fd2f3cf45d3c84f293cb7ee3ab7d24c979495552/spring-core-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.2.RELEASE/7676acd4dde9d186b7f882edce3131dc62dcb590/spring-expression-4.3.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.2.RELEASE/dd75075485ddebb1f912102527ff91c4bfbae903/spring-tx-4.3.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.6/e3e8dd9ad86a7473221dd306c9a13daef0a87168/plexus-container-default-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.5.4/9e5e9a84f9c6e3f3f4745ac833d30dbc08d6e114/aspectjrt-1.5.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
@@ -928,20 +873,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.5.1/98fea8e8c3fb0e8670a69ad6ea445872c9972910/plexus-classworlds-2.5.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-reflect/3.7/6072a967ec936b3bb25b421d8eca07dd750219fd/xbean-reflect-3.7.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.10/1f1f90ddc403e60e0089756f04119948f6a49a04/mchange-commons-java-0.2.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.24.Final/8394cd4f580422af1ef344fcd4405c4dac910ef8/netty-all-4.0.24.Final.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.20/e121ed37af8ee3928952f6d8a303de24e019aab0/plexus-utils-3.0.20.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.2.RELEASE/562b3b775b6e8e7113b5d23b21946f939658bd19/spring-web-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.2.RELEASE/99b68a8aca2ed67ad523e7341a90dd1c90fd669e/spring-webmvc-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.3.2.RELEASE/bf6e7cdb1dd25f5d9fbe76dc4fb01fec7b92af2e/spring-context-support-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.2.RELEASE/d60bd9daf7d819c72e6a27fad16c4683b2e7df11/spring-jdbc-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp/jsp-api/2.2.1-b03/c7205b380e9ceb4b96745656755f31f76ae01b74/jsp-api-2.2.1-b03.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.2.RELEASE/caef216e995f565dd4ab165ec5918ff44487615d/spring-aop-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.2.RELEASE/9e87f48f65a33a017f2dd027911947a28be29f93/spring-beans-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.2.RELEASE/e52782b824e097c3b1586b497fc6be0e95020770/spring-context-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.2.RELEASE/fd2f3cf45d3c84f293cb7ee3ab7d24c979495552/spring-core-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.2.RELEASE/7676acd4dde9d186b7f882edce3131dc62dcb590/spring-expression-4.3.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.2.RELEASE/dd75075485ddebb1f912102527ff91c4bfbae903/spring-tx-4.3.2.RELEASE.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB" />
@@ -1122,18 +1055,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/properties/development/datasource.properties" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/TestUtil.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/properties/test/datasource.properties" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/META-INF/app.properties" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/META-INF/cat/client.xml" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/controllers/UserController.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/TestUtil.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/CommonTest.java" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/CommonTest.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/BaseUnitTest.java" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/services/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis/build.gradle" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/service/impl/UserServiceImpl.java" />
@@ -1141,12 +1063,6 @@
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/mybatis.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/services/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-context.xml" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-datasource.xml" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mybatis.xml" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mappers/usermapper.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/BaseUnitTest.java" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/model/KeyValue.java" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/controllers/UserController.java" />
@@ -1167,12 +1083,29 @@
         <option value="$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/model/KeyValue.java" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-datasource.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/BaseUnitTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/build.gradle" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/properties/development/datasource.properties" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/mappers/usermapper.xml" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/model/User.java" />
         <option value="$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/services/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-context.xml" />
+        <option value="$MAVEN_REPOSITORY$/com/dianping/cat/cat-client/1.3.6/cat-client-1.3.6-sources.jar!/com/dianping/cat/message/internal/DefaultMessageManager.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/servlet-context.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-datasource.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/interceptors/CatMybatisInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/BaseUnitTest.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/interceptors/CatInterceptor.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/dao/User2DAO.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/UserService.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mappers/usermapper.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/services/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1198,7 +1131,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1255,7 +1188,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-mvc-mybatis_dynamicDB" />
+              <option name="myItemId" value="spring-mvc-mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1269,7 +1202,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-mvc-mybatis_dynamicDB" />
+              <option name="myItemId" value="spring-mvc-mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1287,29 +1220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-mvc-mybatis_dynamicDB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-mvc-mybatis_dynamicDB" />
+              <option name="myItemId" value="spring-mvc-mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1320,14 +1231,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1339,7 +1242,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-mvc-mybatis_dynamicDB" />
+              <option name="myItemId" value="spring-mvc-mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1355,18 +1258,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dynamic" />
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="spring-mvc-mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1377,26 +1310,13 @@
     <property name="project.structure.side.proportion" value="0.3113658" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../github/cat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis-sqlite\src\main\webapp\WEB-INF" />
-      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis\src\test\resources\properties\test" />
-      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis\src\main\resources\properties" />
-      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis\src\main\webapp\views" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="mybatis.mvc.sqlite" />
       <recent name="mybatis.mvc" />
       <recent name="mybatis" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="mybatis.mvc.sqlite.services" />
-      <recent name="mybatis.mvc.sqlite" />
-      <recent name="mybatis.mvc.sqlite.service" />
-      <recent name="mybatis.mvc.sqlite.dao" />
-      <recent name="mybatis.mvc.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis-sqlite\src\main\java\mybatis\mvc\sqlite\service" />
@@ -1405,34 +1325,21 @@
       <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis-sqlite\src\main\resources" />
       <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis-sqlite\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mybatis.mvc.sqlite.services" />
+      <recent name="mybatis.mvc.sqlite" />
+      <recent name="mybatis.mvc.sqlite.service" />
+      <recent name="mybatis.mvc.sqlite.dao" />
+      <recent name="mybatis.mvc.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis-sqlite\src\main\webapp\WEB-INF" />
+      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis\src\test\resources\properties\test" />
+      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis\src\main\resources\properties" />
+      <recent name="D:\workspace\shuangyao\java\test-mybatis\spring-mvc-mybatis\src\main\webapp\views" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.spring-mvc-mybatis-dynamicDB_test">
-    <configuration default="false" name="UserServiceTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="mybatis.mvc.sqlite.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-mvc-mybatis-sqlite" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mybatis.mvc.sqlite.services" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.mvc.sqlite.services.UserServiceTest" />
-      <option name="METHOD_NAME" value="testGetById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserServiceTest.testGetById (2)">
     <configuration default="false" name="UserServiceTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1459,32 +1366,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CommonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="mybatis.mvc.sqlite.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-mvc-mybatis_dynamicDB" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mybatis.mvc" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.mvc.CommonTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="UserServiceTest.testGetById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1498,6 +1379,84 @@
       <option name="PACKAGE_NAME" value="mybatis.mvc.services" />
       <option name="MAIN_CLASS_NAME" value="mybatis.mvc.services.UserServiceTest" />
       <option name="METHOD_NAME" value="testGetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceTest.testGetById (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mvc.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-mvc-mybatis_dynamicDB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mybatis.mvc.services" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mvc.services.UserServiceTest" />
+      <option name="METHOD_NAME" value="testGetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceTest.testBatchDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mvc.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-mvc-mybatis_dynamicDB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mybatis.mvc.services" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mvc.services.UserServiceTest" />
+      <option name="METHOD_NAME" value="testBatchDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceTest.testUpdateName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mvc.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-mvc-mybatis_dynamicDB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mybatis.mvc.services" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mvc.services.UserServiceTest" />
+      <option name="METHOD_NAME" value="testUpdateName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -2187,12 +2146,11 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : ys:spring-mvc-mybatis : spring-mvc-mybatis-1.0-SNAPSHOT.war (exploded)" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration default="false" name="spring-mvc-mybatis-dynamicDB_test" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dspring.profiles.active=test" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -2262,26 +2220,25 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : ys:spring-mvc-mybatis_dynamicDB : spring-mvc-mybatis_dynamicDB-1.0-SNAPSHOT.war (exploded)" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.spring-mvc-mybatis_test" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.spring-mvc-mybatis-dynamicDB_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testSave" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CommonTest.test" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testSave" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById (2)" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testBatchDelete" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testUpdateName" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CommonTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById (2)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testSave" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testUpdateName" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testBatchDelete" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.testGetById (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -2301,7 +2258,21 @@
       <workItem from="1476414730088" duration="2671000" />
       <workItem from="1476436025417" duration="108000" />
       <workItem from="1476693482859" duration="5604000" />
-      <workItem from="1476751519651" duration="6117000" />
+      <workItem from="1476751519651" duration="24585000" />
+      <workItem from="1476924938121" duration="29000" />
+      <workItem from="1476925252360" duration="477000" />
+      <workItem from="1476925742522" duration="2718000" />
+      <workItem from="1476944997081" duration="891000" />
+      <workItem from="1476950874587" duration="1771000" />
+      <workItem from="1477013487785" duration="5332000" />
+      <workItem from="1477041182369" duration="618000" />
+      <workItem from="1477279494674" duration="254000" />
+      <workItem from="1477280019399" duration="14761000" />
+      <workItem from="1477454037830" duration="614000" />
+      <workItem from="1477903563139" duration="10841000" />
+      <workItem from="1478075355037" duration="236000" />
+      <workItem from="1478661356213" duration="113000" />
+      <workItem from="1480058029945" duration="3019000" />
     </task>
     <task id="LOCAL-00001" summary="mvc-mybatis： @ResultMap">
       <created>1476184315640</created>
@@ -2333,76 +2304,82 @@
       <option name="project" value="LOCAL" />
       <updated>1476342273598</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sqlite">
+      <created>1476759038546</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1476759038546</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 19m 38s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testGetById_(2) - 2016.11.02 at 16h 29m 56s.xml">
+      <configuration name="UserServiceTest.testGetById (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 26m 29s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 09m 24s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 44m 50s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 10m 31s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 52m 31s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 12m 49s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 53m 28s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 15m 20s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 57m 37s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 16m 38s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 57m 54s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 17m 08s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 09h 58m 11s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 17m 30s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById - 2016.10.18 at 10h 01m 28s.xml">
-      <configuration name="UserServiceTest.testGetById" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 18m 18s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceTest_testGetById_(1) - 2016.10.18 at 09h 21m 11s.xml">
-      <configuration name="UserServiceTest.testGetById (1)" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_testSave - 2016.11.01 at 17h 19m 35s.xml">
+      <configuration name="UserServiceTest.testSave" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77622000" />
+    <option name="totallyTimeSpent" value="137764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41233766" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2391775" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24252136" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.495671" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20735608" sideWeight="0.504329" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18002136" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24937862" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17948718" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24937862" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6287879" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79329" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4134199" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2651515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -2420,20 +2397,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24937862" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5974026" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5530303" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3690476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4134199" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30411255" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14345405" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2391775" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17435159" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47402596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18036212" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2651515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18002136" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -2454,11 +2431,13 @@
     <MESSAGE value="mvc-mybatis： test properties" />
     <MESSAGE value="mvc-mybatis： mybatis conf" />
     <MESSAGE value="mvc-mybatis： dynamic datasource to implement master_slaver datasource" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc-mybatis： dynamic datasource to implement master_slaver datasource" />
+    <MESSAGE value="sqlite" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2467,424 +2446,256 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73867595">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-propertiesConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05807201">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40650406">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27010804">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2195122">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mappers/usermapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17201835">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <marker date="1476752558536" expanded="true" signature="748:951" placeholder="INSERT INTO user" />
-            <marker date="1476752558536" expanded="true" signature="1671:1813" placeholder="DELETE FROM " />
-            <marker date="1476752558536" expanded="true" signature="1970:2120" placeholder="SELECT * FRO... user" />
-            <marker date="1476752558536" expanded="true" signature="2728:2763" placeholder="SELECT * FRO... user" />
-            <marker date="1476752558536" expanded="true" signature="2832:2850" placeholder="SELECT * FRO... user" />
-            <marker date="1476752558536" expanded="true" signature="2920:2958" placeholder="DELETE FROM " />
-            <marker date="1476752558536" expanded="true" signature="3028:3106" placeholder="UPDATE user " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3319149">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27872342">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/services/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25139666">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/BaseUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2793296">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46457607">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.2.RELEASE/c85326db3240124464fa47d03e3c26a96c70cc9e/spring-test-4.3.2.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestClassCallbacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30842912">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle-app.setting">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.51122624">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3107735">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034530386">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/properties/test/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/handlers/GenericTypeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03298153">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/utils/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/CommonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19788918">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/model/KeyValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46457607">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/model/KeyValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/BaseUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48054475">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38043478">
-          <caret line="319" column="32" selection-start-line="319" selection-start-column="25" selection-end-line="319" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/services/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47486034">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39106146">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.2.RELEASE/c85326db3240124464fa47d03e3c26a96c70cc9e/spring-test-4.3.2.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3329609">
-          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/spring-mvc-mybatis-sqlite.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="56" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-mybatis.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8324022">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/BaseUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36312848">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/properties/development/datasource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/build.gradle">
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-propertiesConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5027933">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33268481">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35625">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6770833">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/annotations/Param.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53501946">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14007781">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="0.42372882">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3488372">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-propertiesConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.294118">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.558824">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58072007">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11731844">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/handlers/GenericTypeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22346368">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.764706">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31939605">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/services/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <caret line="26" column="5" selection-start-line="23" selection-start-column="47" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/services/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2793296">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/reflect/ConstructorAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20184544">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27272728">
+          <caret line="443" column="56" selection-start-line="443" selection-start-column="56" selection-end-line="443" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.36871508">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/interceptors/CatInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5865922">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40650406">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02793296">
+          <caret line="525" column="26" selection-start-line="525" selection-start-column="26" selection-end-line="525" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/application-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.764706">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02793296">
+          <caret line="434" column="62" selection-start-line="434" selection-start-column="62" selection-end-line="434" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.5.4/9e5e9a84f9c6e3f3f4745ac833d30dbc08d6e114/aspectjrt-1.5.4.jar!/org/aspectj/lang/reflect/Advice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17301038">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/properties/test/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6183746">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29817444">
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/plugin/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29817444">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/sql/Types.java">
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33268481">
-          <caret line="226" column="32" selection-start-line="226" selection-start-column="32" selection-end-line="226" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/java/mybatis/mvc/sqlite/model/User.java">
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/mappers/slaver.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7023346">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/mappers/usermapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.088235">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="42" />
           <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
+            <marker date="1476752558685" expanded="true" signature="753:956" placeholder="INSERT INTO user" />
+            <marker date="1476752558685" expanded="true" signature="1676:1818" placeholder="DELETE FROM " />
+            <marker date="1476752558685" expanded="true" signature="1975:2125" placeholder="SELECT * FRO... user" />
+            <marker date="1476752558685" expanded="true" signature="2733:2768" placeholder="SELECT * FRO... user" />
+            <marker date="1476752558685" expanded="true" signature="2837:2855" placeholder="SELECT * FRO... user" />
+            <marker date="1476752558685" expanded="true" signature="2925:2963" placeholder="DELETE FROM " />
+            <marker date="1476752558685" expanded="true" signature="3033:3111" placeholder="UPDATE user " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36458334">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.1/def7644f88b49d068b3f06948b631bf762e02eef/mybatis-3.4.1-sources.jar!/org/apache/ibatis/type/JdbcType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47859922">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.1396648">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/main/resources/mappers/usermapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.425">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.029036004">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="25" />
           <folding>
             <marker date="1476755888383" expanded="true" signature="703:906" placeholder="INSERT INTO user" />
             <marker date="1476755888383" expanded="true" signature="1626:1768" placeholder="DELETE FROM " />
@@ -2897,18 +2708,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/src/test/java/mybatis/mvc/sqlite/services/UserServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/resources/mappers/usermapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33519554">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.029036004">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="11" />
+          <folding>
+            <marker date="1477910467559" expanded="true" signature="759:983" placeholder="INSERT INTO user" />
+            <marker date="1477910467559" expanded="true" signature="1713:1855" placeholder="DELETE FROM " />
+            <marker date="1477910467559" expanded="true" signature="2012:2162" placeholder="SELECT * FRO... user" />
+            <marker date="1477910467559" expanded="true" signature="2770:2805" placeholder="SELECT * FRO... user" />
+            <marker date="1477910467559" expanded="true" signature="2874:2892" placeholder="SELECT * FRO... user" />
+            <marker date="1477910467559" expanded="true" signature="2962:3000" placeholder="DELETE FROM " />
+            <marker date="1477910467559" expanded="true" signature="3070:3148" placeholder="UPDATE user " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#12#314#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/BaseUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2793296">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/controllers/UserController.java">
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/test/java/mybatis/mvc/services/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4490446">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.02793296">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis-sqlite/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5027933">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19553073">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5516841">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46457607">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.3.0/2022be53ff19021a08c89fe58d52fdb28c654e75/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6703911">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/application-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5702281">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/resources/application-propertiesConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17421603">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8044693">
+          <caret line="51" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/main/java/mybatis/mvc/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38547486">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30726257">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/CommonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2793296">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis/src/test/java/mybatis/mvc/BaseUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-mybatis_dynamicDB/src/main/java/mybatis/mvc/dynamic/interceptors/CatMybatisInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6424581">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
